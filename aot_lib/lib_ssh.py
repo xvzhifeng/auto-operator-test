@@ -1,4 +1,5 @@
 import paramiko
+from lib_log import logger
 
 def start():
     ssh = paramiko.SSHClient()
@@ -18,5 +19,5 @@ def start():
 
 
 if __name__ == "__main__":
-    print("start")
-    start()
+    logger.debug("start")
+    # start()
