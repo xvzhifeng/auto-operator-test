@@ -1,3 +1,4 @@
 cx_Oracle
 paramiko
 mysql-connector
+pyyaml
